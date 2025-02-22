@@ -53,15 +53,23 @@ const Projects = () => {
             </h2>
             <div className="flex flex-col justify-between">
               <p className="mb-4 flex-grow text-2xl">{project.description}</p>
+              <div className="flex justify-between">
+              <a href={project.githubLink}
+              target="_blank"
+              rel = "noopener noreferrer"
+              className="bg-white text-stone-900 rounded-full py-2 px-2 w-32 text-sm hover:bg-gray-100 text-center"
+              >
+                Github
+              </a>
               <a href={project.link}
               target="_blank"
               rel = "noopener noreferrer"
               className="bg-white text-stone-900 rounded-full py-2 px-2 w-32 text-sm hover:bg-gray-100 text-center"
               >
-                View on Github
-
+                Live Project
               </a>
             </div>
+                </div>
 
             </div>
           </motion.div>

@@ -4,43 +4,32 @@ import project3 from "../assets/projects3.webp";
 import project4 from "../assets/projects4.webp";
 import project5 from "../assets/projects5.webp";
 import project6 from "../assets/projects6.webp";
-
-import person1 from "../assets/person1.webp";
-import person2 from "../assets/person2.webp";
-import person3 from "../assets/person3.webp";
-import person4 from "../assets/person4.webp";
-import person5 from "../assets/person5.webp";
-import person6 from "../assets/person6.webp";
+import password from '../assets/password.jpg'
 
 export const LINKS = [
-  { href: "#work", label: "Work" },
-  { href: "#about", label: "About" },
-  { href: "#experience", label: "Experience" },
+  { href: "work", label: "Work" },
+  { href: "about", label: "About" },
+  { href: "experience", label: "Experience" },
   // { href: "testimonials", label: "Testimonials" },
-  { href: "#contact", label: "Contact" },
+  { href: "contact", label: "Contact" },
 ];
 
 export const HERO_CONTENT = {
-  greeting: "Hello 👋 I am Samar Abbas",
+  greeting: "Hello 👋 Myself Samar Abbas",
   introduction: "I am a Frontend Developer",
   description:
-    "I am a Frontend Developer with 2 years of experience in building websites and web applications. I specialize in JavaScript and have professional experience working with React and Redux.",
+    "I am a Frontend Developer with 3 years of experience in the IT industry, including 1 year dedicated to building websites and web applications. I specialize in JavaScript and have professional expertise in working with React and Redux. I am eager to transition into a Full Stack Developer role, leveraging my skills to contribute across the entire web development lifecycle.",
   resumeLinkText: "Download Resume",
   resumeLink: "/resume.pdf",
 };
 
 export const PROJECTS = [
   {
-    name: "BootStore",
-    description: "A simple e-commerce website built using React and Redux",
-    image: project1,
-    link: "example",
-  },
-  {
-    name: "BootStore3",
-    description: "A simple e-commerce website built using React and Redux",
-    image: project2,
-    link: "example",
+    name: "Password Manager",
+    description: "A simple password manager built using React that allows you to store and manage passwords locally",
+    image: password,
+    link: "https://password-manager-xi-nine.vercel.app/",
+    githubLink : "https://github.com/SamarAbbas110/Password-Manager"
   },
   {
     name: "BootStore3",
@@ -107,7 +96,7 @@ export const CONTACT = {
   socialLinks: [
     {
       platform: "LinkedIn",
-      url: "https://www.linkedin.com/in/samar-abbas-4b7b4b1a9/",
+      url: "https://www.linkedin.com/in/sayyed-samar-abbas-abidi-5404271b6/",
       ariaLabel: "View Samar Abbas's LinkedIn Profile",
       icon: "RiLinkedinBoxFill",
     },

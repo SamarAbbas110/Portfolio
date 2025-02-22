@@ -1,6 +1,6 @@
 import { easeOut, motion, stagger } from "framer-motion";
 import { clipPath } from "framer-motion/client";
-import jason from "../assets/jason-root.webp";
+import myphoto from "../assets/photo.jpg";
 import React from "react";
 import { HERO_CONTENT } from "../constant";
 
@@ -82,17 +82,17 @@ const MainPage = () => {
       </motion.div>
 
       <motion.div
-        className="w-full md:w-1/2 p-8"
+        className="w-full md:w-1/2 p-20"
         initial="hidden"
         animate="visible"
         variants={imageVariant}
       >
         <img
-          src={jason}
-          alt="jason root"
-          width={500}
-          height={500}
-          className="rounded-3xl"
+          src={myphoto}
+          alt="my photo"
+          width={400}
+          height={400}
+          className="rounded-full"
         />
       </motion.div>
     </div>
