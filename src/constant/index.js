@@ -6,15 +6,16 @@ import project6 from "../assets/projects6.webp";
 import password from "../assets/password.jpg";
 
 export const LINKS = [
-  { href: "work", label: "Work" },
-  { href: "about", label: "About" },
+  { href: "technologies", label: "Tech Stacks" },
+  { href: "work", label: "Projects" },
   { href: "experience", label: "Experience" },
+  { href: "about", label: "About" },
   // { href: "testimonials", label: "Testimonials" },
   { href: "contact", label: "Contact" },
 ];
 
 export const HERO_CONTENT = {
-  greeting: "Hello 👋 Myself Samar Abbas",
+  greeting: "Hello 👋 Myself Sayyed Samar Abbas",
   introduction: "I am a Frontend Developer",
   description:
     "I am a Frontend Developer with 3 years of experience in the IT industry, including 1 year dedicated to building websites and web applications. I specialize in JavaScript and have professional expertise in working with React and Redux. I am eager to transition into a Full Stack Developer role, leveraging my skills to contribute across the entire web development lifecycle.",
@@ -67,16 +68,19 @@ export const EXPERIENCE = [
       "Developed and optimized user interface components using React.js, delivering seamless and intuitive user experiences.",
       "Resolved frontend issues with strong problem-solving skills, ensuring high-quality deliverables.",
       "Continuously enhanced expertise in frontend technologies through self-paced learning and workshops.",
-      "Collaborated with cross-functional teams to align UI solutions with project goals."
+      "Collaborated with cross-functional teams to align UI solutions with project goals.",
     ],
   },
 ];
 
 export const CONTACT = {
   headline: "LETS WORK ON SOMETHING GREAT TOGETHER!",
-  description:
-    "I am currently looking for new opportunities and would love to work with you. Please feel free to reach out to me, I am currently looking for new opportunities and would love to work with you. Please feel free to reach out to me.",
-  email: "sa707510@gmail.com",
+  description:[
+    "I am actively seeking new professional opportunities where I can contribute my skills and experience to a forward-thinking organization. I'm enthusiastic about connecting with potential employers and would welcome the chance to discuss how my background might align with your needs.",
+    "If you'd like to learn more about my qualifications or discuss potential opportunities, please feel free to contact me at sa707510@gmail.com.",
+    "Thank you for your consideration, and I look forward to potentially working together.",
+    ],
+      email: "sa707510@gmail.com",
   socialLinks: [
     {
       platform: "LinkedIn",
@@ -98,5 +102,5 @@ export const CONTACT = {
     },
   ],
 
-  footerText: `© ${new Date().getFullYear()} Samar Abbas. All copyrights reserved.`,
+  footerText: `© ${new Date().getFullYear()} Samar Abbas.`,
 };

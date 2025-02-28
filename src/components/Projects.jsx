@@ -27,8 +27,8 @@ const Projects = () => {
 
   return (
     <div className="px-6 py-10" id="work">
-      <h1 className="text-xl lg:text-5xl md:text-6xl font-medium tracking-tight mb-10">
-        Work
+      <h1 className="text-3xl lg:text-5xl md:text-6xl font-medium tracking-tight mb-10">
+        Projects
       </h1>
       <div className="h-1 w-20 mb-8 bg-white"></div>
 

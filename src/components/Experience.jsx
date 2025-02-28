@@ -39,7 +39,7 @@ const Experience = () => {
 
       <motion.div
         className="space-y-10"
-        initial="hidden"
+         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.3 }}
         variants={containerVariants}

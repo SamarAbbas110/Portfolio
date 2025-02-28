@@ -5,8 +5,8 @@ import Contacts from "./components/Contacts";
 import Experience from "./components/Experience";
 import MainPage from "./components/MainPage";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects"
-
+import Projects from "./components/Projects";
+import Technologies from "./components/Technologies";
 
 function App() {
   return (
@@ -19,10 +19,11 @@ function App() {
         relative z-10
         "
         >
-          <Navbar />
           <MainPage />
+          <Technologies/>
           <Projects />
-          <About />
+{/* 
+          <About /> */}
           <Experience />
           <Contacts />
         </main>

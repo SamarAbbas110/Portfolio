@@ -60,7 +60,7 @@ const Contacts = () => {
       </motion.h3>
 
       <motion.p
-        className="text-lg md:text-2xl mt-6 max-w-3xl"
+        className="text-lg md:text-2xl mt-6 max-w-7xl"
         initial="hidden"
         whileInView="visible"
         custom={0.6}

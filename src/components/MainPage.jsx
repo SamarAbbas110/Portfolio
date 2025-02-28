@@ -1,5 +1,4 @@
-import { easeOut, motion, stagger } from "framer-motion";
-import { clipPath } from "framer-motion/client";
+import { motion } from "framer-motion";
 import myphoto from "../assets/photo.jpg";
 import React from "react";
 import { HERO_CONTENT } from "../constant";
@@ -47,25 +46,25 @@ const imageVariant = {
 const MainPage = () => {
   return (
     <div
-      className="relative z-10 min-h-screen flex flex-wrap flex-col
-    md:flex-row items-center justify-center text-white"
+      className="relative z-10 min-h-screen flex flex-col md:flex-row items-center justify-between text-white"
     >
+      {/* Text Content */}
       <motion.div
-        className="w-full md:w-1/2 p-8 "
+        className="w-full md:w-10/12 p-8 order-2 md:order-none "
         initial="hidden"
         animate="visible"
         variants={containerVariants}
       >
         <motion.h1
-          className="text-xl md:text-2xl lg:text-4xl my-10"
+          className="text-3xl md:text-2xl lg:text-6xl my-5"
           variants={textVariants}
         >
           {HERO_CONTENT.greeting}
         </motion.h1>
-        <motion.p className="text-base md:text-lg lg:text-xl mb-3">
+        <motion.p className="text-2xl md:text-lg lg:text-3xl mb-3">
           {HERO_CONTENT.introduction}
         </motion.p>
-        <motion.p className="text-xl md:text-lg lg:text-xl !important">
+        <motion.p className="text-xl md:text-lg lg:text-xl">
           {HERO_CONTENT.description}
         </motion.p>
 
@@ -81,8 +80,9 @@ const MainPage = () => {
         </motion.a>
       </motion.div>
 
+      {/* Image */}
       <motion.div
-        className="w-full md:w-1/2 p-20 flex justify-end"
+        className="w-full md:w-1/2 p-10 flex justify-center md:justify-end order-1 md:order-none"
         initial="hidden"
         animate="visible"
         variants={imageVariant}
@@ -90,9 +90,9 @@ const MainPage = () => {
         <img
           src={myphoto}
           alt="my photo"
-          width={400}
-          height={400}
-          className="rounded-full "
+          width={350}
+          height={250}
+          className="my-16  border border-stone-900 rounded-3xl"
         />
       </motion.div>
     </div>
