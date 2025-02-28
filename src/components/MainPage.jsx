@@ -51,7 +51,7 @@ const MainPage = () => {
     md:flex-row items-center justify-center text-white"
     >
       <motion.div
-        className="w-full md:w-1/2 p-8"
+        className="w-full md:w-1/2 p-8 "
         initial="hidden"
         animate="visible"
         variants={containerVariants}
@@ -82,7 +82,7 @@ const MainPage = () => {
       </motion.div>
 
       <motion.div
-        className="w-full md:w-1/2 p-20"
+        className="w-full md:w-1/2 p-20 flex justify-end"
         initial="hidden"
         animate="visible"
         variants={imageVariant}
@@ -92,7 +92,7 @@ const MainPage = () => {
           alt="my photo"
           width={400}
           height={400}
-          className="rounded-full"
+          className="rounded-full "
         />
       </motion.div>
     </div>

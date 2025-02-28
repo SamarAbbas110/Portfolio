@@ -1,10 +1,9 @@
 import project1 from "../assets/projects1.webp";
-import project2 from "../assets/projects2.webp";
-import project3 from "../assets/projects3.webp";
+import project2 from "../assets/NetflixGPT.webp";
 import project4 from "../assets/projects4.webp";
 import project5 from "../assets/projects5.webp";
 import project6 from "../assets/projects6.webp";
-import password from '../assets/password.jpg'
+import password from "../assets/password.jpg";
 
 export const LINKS = [
   { href: "work", label: "Work" },
@@ -26,34 +25,19 @@ export const HERO_CONTENT = {
 export const PROJECTS = [
   {
     name: "Password Manager",
-    description: "A simple password manager built using React that allows you to store and manage passwords locally",
+    description:
+      "A simple password manager built using React that allows you to store and manage passwords locally",
     image: password,
-    link: "https://password-manager-xi-nine.vercel.app/",
-    githubLink : "https://github.com/SamarAbbas110/Password-Manager"
+    githubLink: "https://github.com/SamarAbbas110/Password-Manager",
+    live: "https://password-manager-xi-nine.vercel.app/",
   },
   {
-    name: "BootStore3",
-    description: "A simple e-commerce website built using React and Redux",
-    image: project3,
-    link: "example",
-  },
-  {
-    name: "BootStore3",
-    description: "A simple e-commerce website built using React and Redux",
-    image: project4,
-    link: "example",
-  },
-  {
-    name: "BootStore3",
-    description: "A simple e-commerce website built using React and Redux",
-    image: project5,
-    link: "example",
-  },
-  {
-    name: "BootStore3",
-    description: "A simple e-commerce website built using React and Redux",
-    image: project6,
-    link: "example",
+    name: "NetflixGPT",
+    description:
+      "A frontend Netflix Clone with some additional Feature like GPT-3 Movie Recommendations",
+    image: project2,
+    githubLink: "https://github.com/SamarAbbas110/Netflix-GPT",
+    live: "https://netflix-gpt-woad-omega.vercel.app/",
   },
 ];
 
@@ -66,24 +50,24 @@ export const ABOUT_CONTENT = {
 export const EXPERIENCE = [
   {
     yearRange: "2024 - Now",
-    title: "Frontend Developer",
-    location: "Mumbai, India",
+    title: " Frontend Developer",
+    location: "ACCENTURE (Contract) | Mumbai, India",
     description: [
-      "Developed a responsive website using React and Redux",
-      "Optimized website performance and improved loading speed by 50%",
-      "Collaborated with the design team to create a pixel-perfect website",
-      "Worked with the backend team to integrate API endpoints",
+      "Designing and developing modular email blocks using REACT, enabling a scalable and reusable template architecture.",
+      "Building an email builder that allows users to create emails, forms, and pop-ups dynamically using drag-and-drop functionality.",
+      "Writing clean, efficient JAVASCRIPT code to optimize rendering performance and ensure smooth user interactions.",
+      "Collaborating with cross-functional teams to integrate email modules seamlessly into the broader application ecosystem.",
     ],
   },
   {
     yearRange: "2021 - 2024",
-    title: "Frontend Developer",
-    location: "Mumbai, India",
+    title: "Trainee Developer",
+    location: "Wipro | Mumbai, India",
     description: [
-      "Developed a responsive website using React and Redux",
-      "Optimized website performance and improved loading speed by 50%",
-      "Collaborated with the design team to create a pixel-perfect website",
-      "Worked with the backend team to integrate API endpoints",
+      "Developed and optimized user interface components using React.js, delivering seamless and intuitive user experiences.",
+      "Resolved frontend issues with strong problem-solving skills, ensuring high-quality deliverables.",
+      "Continuously enhanced expertise in frontend technologies through self-paced learning and workshops.",
+      "Collaborated with cross-functional teams to align UI solutions with project goals."
     ],
   },
 ];

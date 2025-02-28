@@ -19,17 +19,17 @@ const About = () => {
   };
 
   return (
-    <section className="px-6 py-10" id="about">
+    <section className="px-6 py-12" id="about">
       <h2 className="text-3xl lg:text-5xl md:text-6xl font-medium tracking-tight mb-10">
         About
       </h2>
       <div className="h-1 w-20 mb-8 bg-white"></div>
 
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         {ABOUT_CONTENT.paragraphs.map((paragraph, index) => (
           <motion.p
             key={index}
-            className="text-xl md:text-2xl lg:text-2xl mb-10 leading-relaxed"
+            className="text-lg md:text-2xl lg:text-2xl mb-10 leading-relaxed"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}

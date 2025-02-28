@@ -52,8 +52,8 @@ const Experience = () => {
               </div>
 
               <div className="md:w-3/4 mb-10">
-                <div className="max-w-3xl backdrop-blur-3xl p-4 rounded-lg">
-                  <h2 className="text-xl mb-2">
+                <div className="max-w-7xl backdrop-blur-3xl p-4 rounded-lg">
+                  <h2 className="text-lg mb-2">
                     {exp.title}
                     <p className="mb-4 text-sm italic">{exp.location}</p>
                     <ul className="list-disc list-inside space-y-2">
