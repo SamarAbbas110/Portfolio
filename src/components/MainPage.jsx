@@ -45,9 +45,7 @@ const imageVariant = {
 
 const MainPage = () => {
   return (
-    <div
-      className="relative z-10 min-h-screen flex flex-col md:flex-row items-center justify-between text-white"
-    >
+    <div className="relative z-10 min-h-screen flex flex-col md:flex-row items-center justify-between text-white">
       {/* Text Content */}
       <motion.div
         className="w-full md:w-10/12 p-8 order-2 md:order-none "
@@ -56,17 +54,19 @@ const MainPage = () => {
         variants={containerVariants}
       >
         <motion.h1
-          className="text-3xl md:text-2xl lg:text-6xl my-5"
+          className="text-2xl md:text-2xl lg:text-6xl my-5 font-bold"
           variants={textVariants}
         >
           {HERO_CONTENT.greeting}
         </motion.h1>
-        <motion.p className="text-2xl md:text-lg lg:text-3xl mb-3">
+        <motion.p className="text-xl md:text-lg lg:text-3xl mb-3">
           {HERO_CONTENT.introduction}
         </motion.p>
-        <motion.p className="text-xl md:text-lg lg:text-xl">
-          {HERO_CONTENT.description}
-        </motion.p>
+        {HERO_CONTENT.description.map((desc, index) => (
+          <motion.p className="text-lg md:text-lg lg:text-xl mt-4" key={index}>
+            {desc}
+          </motion.p>
+        ))}
 
         <motion.a
           className="bg-stone-50 text-stone-900 p-2 lg:p-3 mt-8 inline-block rounded-xl"
@@ -92,7 +92,7 @@ const MainPage = () => {
           alt="my photo"
           width={350}
           height={250}
-          className="my-16  border border-stone-900 rounded-3xl"
+          className=" border border-stone-900 rounded-3xl"
         />
       </motion.div>
     </div>

@@ -26,7 +26,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="px-6 py-10" id="work">
+    <div className="px-6 py-10" id="projects">
       <h1 className="text-3xl lg:text-5xl md:text-6xl font-medium tracking-tight mb-10">
         Projects
       </h1>

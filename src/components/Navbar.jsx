@@ -8,7 +8,6 @@ const Navbar = () => {
   const handleMenu = () => {
     setmenuOpen(!menuOpen);
   };
-
   const handleNavigation = (href) => {
     const target = document.querySelector(href);
     if (target) {
@@ -16,6 +15,8 @@ const Navbar = () => {
       setmenuOpen(false);
     }
   };
+  
+  
   
 
   return (

@@ -50,7 +50,7 @@ const Contacts = () => {
       <div className="h-1 w-20 mb-8 bg-white"></div>
 
       <motion.h3
-        className="text-6xl lg:text-7xl md:text-8xl leading-none"
+        className="text-2xl lg:text-5xl md:text-3xl leading-none font-bold"
         initial="hidden"
         whileInView="visible"
         custom={0.4}
@@ -58,16 +58,18 @@ const Contacts = () => {
       >
         {CONTACT.headline}
       </motion.h3>
-
-      <motion.p
-        className="text-lg md:text-2xl mt-6 max-w-7xl"
-        initial="hidden"
-        whileInView="visible"
-        custom={0.6}
-        variants={textVariants}
-      >
-        {CONTACT.description}
-      </motion.p>
+      {CONTACT.description.map((para, index) => (
+        <motion.p
+          key={index}
+          className="text-lg md:text-2xl mt-6 max-w-7xl"
+          initial="hidden"
+          whileInView="visible"
+          custom={0.6}
+          variants={textVariants}
+        >
+          {para}
+        </motion.p>
+      ))}
 
       <motion.a
         href={`mailto:${CONTACT.email}`}
