@@ -59,7 +59,7 @@ const MainPage = () => {
         >
           {HERO_CONTENT.greeting}
         </motion.h1>
-        <motion.p className="text-xl md:text-lg lg:text-3xl mb-3">
+        <motion.p className="text-xl md:text-lg lg:text-2xl mb-3 font-bold">
           {HERO_CONTENT.introduction}
         </motion.p>
         {HERO_CONTENT.description.map((desc, index) => (
