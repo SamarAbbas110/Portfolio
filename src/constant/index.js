@@ -8,7 +8,7 @@ export const LINKS = [
 ];
 
 export const HERO_CONTENT = {
-  greeting: "Hello 👋 Myself Sayyed Samar Abbas",
+  greeting: "Hi, I'm Sayyed Samar Abbas 👻",
   introduction: "Frontend Developer",
   description: [
     "I am a Frontend Developer with 3 years of experience in the IT industry, including 1 year dedicated to building websites and web applications.",
