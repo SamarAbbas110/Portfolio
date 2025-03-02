@@ -9,7 +9,7 @@ export const LINKS = [
 
 export const HERO_CONTENT = {
   greeting: "Hi, I'm Sayyed Samar Abbas 👻",
-  introduction: "Frontend Developer",
+  introduction: "24-year-old tech enthusiast.",
   description: [
     "I am a Frontend Developer with 3 years of experience in the IT industry, including 1 year dedicated to building websites and web applications.",
     "I specialize in JavaScript and have professional expertise in working with React and Redux. I am eager to transition into a Full Stack Developer role, leveraging my skills to contribute across the entire web development lifecycle.",
