@@ -1,5 +1,6 @@
 import project2 from "../assets/NetflixGPT.webp";
 import password from "../assets/password.jpg";
+import snappedandstitched from "../assets/Snapped and Stitched.png"
 
 export const LINKS = [
   { href: "#projects", label: "Projects" },
@@ -8,17 +9,25 @@ export const LINKS = [
 ];
 
 export const HERO_CONTENT = {
-  greeting: "Hi, I'm Sayyed Samar Abbas 👻",
-  introduction: "24-year-old tech enthusiast.",
+  greeting: "Hello, Myself Sayyed Samar Abbas",
+  introduction: "Tech geek, 24 and thriving.",
   description: [
     "I am a Frontend Developer with 3 years of experience in the IT industry, including 1 year dedicated to building websites and web applications.",
     "I specialize in JavaScript and have professional expertise in working with React and Redux. I am eager to transition into a Full Stack Developer role, leveraging my skills to contribute across the entire web development lifecycle.",
   ],
   resumeLinkText: "Download My Resume",
-  resumeLink: "/resume.pdf",
+  resumeLink: "/Resume.pdf",
 };
 
 export const PROJECTS = [
+  {
+    name: "Snapped and Stitched",
+    description:
+      "Built a full-stack e-commerce web app with real-time cart, secure checkout, and admin panel using React, Node.js, Express, and MongoDB.",
+    image: snappedandstitched,
+    githubLink: "https://github.com/SamarAbbas110/Snapped-Snitched",
+    live: "https://snapped-snitched--two.vercel.app/",
+  },
   {
     name: "Password Manager",
     description:
