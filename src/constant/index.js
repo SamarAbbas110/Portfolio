@@ -29,20 +29,20 @@ export const PROJECTS = [
     live: "https://snapped-snitched--two.vercel.app/",
   },
   {
-    name: "Password Manager",
-    description:
-      "A Password Manager built using React that allows you to store and manage passwords locally",
-    image: password,
-    githubLink: "https://github.com/SamarAbbas110/Password-Manager",
-    live: "https://password-manager-xi-nine.vercel.app/",
-  },
-  {
     name: "NetflixGPT",
     description:
       "A frontend Netflix Clone with some additional Feature like GPT-3 Movie Recommendations",
     image: project2,
     githubLink: "https://github.com/SamarAbbas110/Netflix-GPT",
     live: "https://netflix-gpt-woad-omega.vercel.app/",
+  },
+  {
+    name: "Password Manager",
+    description:
+      "A Password Manager built using React that allows you to store and manage passwords locally",
+    image: password,
+    githubLink: "https://github.com/SamarAbbas110/Password-Manager",
+    live: "https://password-manager-xi-nine.vercel.app/",
   },
 ];
 
