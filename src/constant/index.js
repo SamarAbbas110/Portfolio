@@ -16,7 +16,7 @@ export const HERO_CONTENT = {
     "I specialize in JavaScript and have professional expertise in working with React and Redux. I am eager to transition into a Full Stack Developer role, leveraging my skills to contribute across the entire web development lifecycle.",
   ],
   resumeLinkText: "Download Resume",
-  resumeLink: "/Resume.pdf",
+  resumeLink: "/public/Resume.pdf"
 };
 
 export const PROJECTS = [
