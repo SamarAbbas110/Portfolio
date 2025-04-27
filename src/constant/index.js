@@ -17,6 +17,7 @@ export const HERO_CONTENT = {
   ],
   resumeLinkText: "Download Resume",
   resumeLink: "/Resume.pdf"
+
 };
 
 export const PROJECTS = [
